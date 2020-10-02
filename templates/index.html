@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+
+</head>
+<body>
+<div class="container-fluid" >
+    <div class="row">
+       
+        <div class="container text-white bg-primary text-center"><h1><b>Breast Cancer Prediction ML Project (Flask App)</b></h1></div>
+        <div class="col-md-6 col-sm-6 col-xs-12" style="padding-top: 15px;">
+            <form class="form-container" action="{{ url_for('predict')}}"method="post">
+
+                <div class="form-group" >
+                   <label >Radius Mean (6.981 to 28.11):</label>
+                   <input  class="form-control" type="text" name="radius_mean" placeholder="Radius Mean" required="required">
+                 </div>
+
+                <div class="form-group">
+                    <label >Perimeter Mean (43.79 to 188.5):</label>
+                    <input  class="form-control" type="text" name="perimeter_mean" placeholder="Perimeter Mean" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label >Area Mean (143.0 to 2501.0):</label>
+                    <input  class="form-control" type="text" name="area_mean" placeholder="Area Mean" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label >Concavity Mean (0.0 to 0.45):</label>
+                    <input  class="form-control" type="text" name="concavity_mean" placeholder="Concavity Mean" required="required">
+                </div>
+
+                <div class="form-group">
+                    <label >Concave Points Mean (0.0 to 0.201):</label>
+                    <input  class="form-control" type="text" name="concave_points_mean" placeholder="Concave Points Mean" required="required">
+                </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12" style="padding-top: 15px;">
+            <div class="form-group">
+               <label >Radius Worst (7.0 to 36.0):</label>
+                <input  class="form-control" type="text" name="radius_worst" placeholder="Radius Worst" required="required">
+            </div>
+
+
+            <div class="form-group">
+               <label >Perimeter Worst (50.41 to 251.2):</label>
+               <input  class="form-control" type="text" name="perimeter_worst" placeholder="Perimeter Worst" required="required">
+            </div>
+
+            <div class="form-group">
+                 <label >Area Worst (185.0 to 4254.0):</label>
+               <input  class="form-control" type="text" name="area_worst" placeholder="Area Worst" required="required">
+            </div>
+
+            <div class="form-group">
+                 <label >Concavity Worst (0.0 to 1.25):</label>
+               <input  class="form-control" type="text" name="concavity_worst" placeholder="Concavity Worst" required="required">
+            </div>
+
+            <div class="form-group">
+                 <label >Concave Points Worst (0.0 to 0.29):</label>
+               <input  class="form-control" type="text" name="concave_points_worst" placeholder="Concave Points Worst" required="required">
+            </div>
+
+
+        </div> 
+</div>
+    <br><br><br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="align-self-end mx-auto">
+            <button type="submit" class="btn btn-primary btn-success btn-lg" value="predict" name="predict">Predict</button>
+        </form>
+        </div>
+    </div>
+</div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
