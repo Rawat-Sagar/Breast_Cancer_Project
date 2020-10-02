@@ -8,14 +8,14 @@ Machine Learning Project
 
 
 Breast Cancer Project : A simple machine learning project to detect the presence or absence of cancer cells in your body<br>
-Check out the live demo : https://breast-cancer-02-api.herokuapp.com/
+Check out the live demo : https://breast-cancer-02-api.herokuapp.com/  
 
 
 ## About this PROJECT :
 
 Breast cancer is the most frequent type of cancer in women. It is estimated that one in 10 women may suffer from it sometime during their life. Although a large majority of breast cancer tumours are cured, even today 20% of patients are not. Resistance to treatment or the absence of specific therapies against certain types of breast cancer explains why certain tumours cannot be completely eliminated.
 
-This give me an idea to develop this Breast_Cancer_Project which predicts whether its a cancer cells or not
+This give me an idea to develop this Breast_Cancer_Project which predicts whether its a cancer cells or not.
 
 # Note
 
@@ -28,4 +28,4 @@ Which can perform better
 2. Clone this repository in your local system.
 3. Open the command prompt from your project directory and run the command `python app.py`.
 4. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-5. Hurray! That's it.
+5.That's it , now you can start your predictions.
