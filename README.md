@@ -28,4 +28,4 @@ Which can perform better
 2. Clone this repository in your local system.
 3. Open the command prompt from your project directory and run the command `python app.py`.
 4. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-5.That's it , now you can start your predictions.
+5. That's it , now you can start your predictions.
