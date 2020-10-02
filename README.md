@@ -24,7 +24,7 @@ Which can perform better
 
 ## How to run the project?
 
-1. Install all the libraries mentioned in the [requirements.txt](https://https://github.com/Rawat-Sagar/Breast_Cancer_Project/blob/main/requirements.txt) file.
+1. Install all the libraries mentioned in the [requirements.txt](https://github.com/Rawat-Sagar/Breast_Cancer_Project/blob/main/requirements.txt) file.
 2. Clone this repository in your local system.
 3. Open the command prompt from your project directory and run the command `python app.py`.
 4. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
