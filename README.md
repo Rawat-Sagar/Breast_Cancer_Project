@@ -4,7 +4,7 @@ Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.7-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS-green)
+![Frontend](https://img.shields.io/badge/Frontend-HTML-green)
 
 
 Breast Cancer Project : A simple machine learning project to detect the presence or absence of cancer cells in your body<br>
